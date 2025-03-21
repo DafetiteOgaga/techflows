@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techflows/static/css/main.ac6ad60b.css",
-    "main.js": "/techflows/static/js/main.a3cafd2c.js",
+    "main.css": "/techflows/static/css/main.44695d29.css",
+    "main.js": "/techflows/static/js/main.3e2284b6.js",
     "static/js/453.77babadd.chunk.js": "/techflows/static/js/453.77babadd.chunk.js",
     "static/media/slider-img.jpg": "/techflows/static/media/slider-img.1398fca0f50b6e96bb57.jpg",
     "static/media/about-img1.jpg": "/techflows/static/media/about-img1.cf481880acb3d96c61f2.jpg",
@@ -11,12 +11,12 @@
     "static/media/s5.png": "/techflows/static/media/s5.07678e738453133dfb03.png",
     "static/media/s2.png": "/techflows/static/media/s2.7be8cb407159ed89782c.png",
     "index.html": "/techflows/index.html",
-    "main.ac6ad60b.css.map": "/techflows/static/css/main.ac6ad60b.css.map",
-    "main.a3cafd2c.js.map": "/techflows/static/js/main.a3cafd2c.js.map",
+    "main.44695d29.css.map": "/techflows/static/css/main.44695d29.css.map",
+    "main.3e2284b6.js.map": "/techflows/static/js/main.3e2284b6.js.map",
     "453.77babadd.chunk.js.map": "/techflows/static/js/453.77babadd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac6ad60b.css",
-    "static/js/main.a3cafd2c.js"
+    "static/css/main.44695d29.css",
+    "static/js/main.3e2284b6.js"
   ]
 }
