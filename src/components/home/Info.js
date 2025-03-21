@@ -8,11 +8,11 @@ import instagram from '../../images/instagram.png'
 
 function Info () {
 	return (
-		<section class="info_section layout_padding">
-			<div class="container">
-				<div class="info_contact">
-					<div class="row">
-						<div class="col-md-4">
+		<section className="info_section layout_padding">
+			<div className="container">
+				<div className="info_contact">
+					<div className="row">
+						<div className="col-md-4">
 							<a href="/">
 								<img src={location} alt=""/>
 								<span>
@@ -20,7 +20,7 @@ function Info () {
 								</span>
 							</a>
 						</div>
-						<div class="col-md-4">
+						<div className="col-md-4">
 							<a href="/">
 								<img src={telephone} alt=""/>
 								<span>
@@ -28,7 +28,7 @@ function Info () {
 								</span>
 							</a>
 						</div>
-						<div class="col-md-4">
+						<div className="col-md-4">
 							<a href="/">
 								<img src={envelope} alt=""/>
 								<span>
@@ -38,9 +38,9 @@ function Info () {
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-8 col-lg-9">
-						<div class="info_form">
+				<div className="row">
+					<div className="col-md-8 col-lg-9">
+						<div className="info_form">
 							<form action="">
 								<input type="text" placeholder="Enter your email"/>
 								<button>
@@ -49,8 +49,8 @@ function Info () {
 							</form>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-3">
-						<div class="info_social">
+					<div className="col-md-4 col-lg-3">
+						<div className="info_social">
 							<div>
 								<a href="/">
 									<img src={fb} alt=""/>
