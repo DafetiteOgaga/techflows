@@ -4,12 +4,12 @@ import about2 from '../../images/about-img2.jpg'
 
 function About() {
 	return (
-		<section class="about_section_bg about_section layout_padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="detail-box">
-							<div class="heading_container">
+		<section className="about_section_bg about_section layout_padding">
+			<div className="container">
+				<div className="row">
+					<div className="col-md-6">
+						<div className="detail-box">
+							<div className="heading_container">
 								<h2>
 									About Us
 								</h2>
@@ -26,8 +26,8 @@ function About() {
 								Read More
 							</a> */}
 						</div>
-						<div class="detail-box">
-							<div class="heading_container">
+						<div className="detail-box">
+							<div className="heading_container">
 								<h2>
 									Our Mission, Vision & Values
 								</h2>
@@ -44,8 +44,8 @@ function About() {
 								Read More
 							</a> */}
 						</div>
-						<div class="detail-box">
-							<div class="heading_container">
+						<div className="detail-box">
+							<div className="heading_container">
 								<h2>
 									What makes us different?
 								</h2>
@@ -63,12 +63,12 @@ function About() {
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="img_container">
-							<div class="img-box b1">
+					<div className="col-md-6">
+						<div className="img_container">
+							<div className="img-box b1">
 								<img src={about1} alt="" />
 							</div>
-							<div class="img-box b2">
+							<div className="img-box b2">
 								<img src={about2} alt="" />
 							</div>
 						</div>

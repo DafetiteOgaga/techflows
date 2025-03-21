@@ -18,7 +18,7 @@ import { Footer } from './components/home/Footer';
 function App() {
   return (
     <div className="App">
-      <div class="hero_area">
+      <div className="hero_area">
         <Header />
         <Slider />
       </div>
