@@ -7,21 +7,21 @@ import s5 from '../../images/s5.png'
 
 function Services () {
 	return (
-		<section class="service_section layout_padding">
-			<div class="container">
-				<div class="heading_container">
+		<section className="service_section layout_padding">
+			<div className="container">
+				<div className="heading_container">
 					<h2>
 						Our Services
 					</h2>
 					<img src={plug} alt=""/>
 				</div>
 
-				<div class="service_container">
-					<div class="box">
-						<div class="img-box">
-							<img src={s1} class="img1" alt=""/>
+				<div className="service_container">
+					<div className="box">
+						<div className="img-box">
+							<img src={s1} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								Software Development
 								{/* (Custom solutions, Web and Mobile Apps) */}
@@ -31,11 +31,11 @@ function Services () {
 							</p>
 						</div>
 					</div>
-					<div class="box active">
-						<div class="img-box">
-							<img src={s2} class="img1" alt=""/>
+					<div className="box active">
+						<div className="img-box">
+							<img src={s2} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								Computer Hardware Maintainance & sales
 								{/* (Repairs, Upgrades, Installations and sales) */}
@@ -45,11 +45,11 @@ function Services () {
 							</p>
 						</div>
 					</div>
-					<div class="box">
-						<div class="img-box">
-							<img src={s3} class="img1" alt=""/>
+					<div className="box">
+						<div className="img-box">
+							<img src={s3} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								Security Solutions for Businesses and Homes
 								{/* (Fire Alarm Systems, CCTV, Access Control) */}
@@ -59,11 +59,11 @@ function Services () {
 							</p>
 						</div>
 					</div>
-					<div class="box ">
-						<div class="img-box">
-							<img src={s4} class="img1" alt=""/>
+					<div className="box ">
+						<div className="img-box">
+							<img src={s4} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								ATM spare parts sales and maintainance
 								{/* (Genuine parts and expert servicing) */}
@@ -73,11 +73,11 @@ function Services () {
 							</p>
 						</div>
 					</div>
-					<div class="box">
-						<div class="img-box">
-							<img src={s5} class="img1" alt=""/>
+					<div className="box">
+						<div className="img-box">
+							<img src={s5} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								IT Training
 								{/* (Software, Networking, Cybersecurity, etc) */}
@@ -88,11 +88,11 @@ function Services () {
 						</div>
 					</div>
 
-					<div class="box">
-						<div class="img-box">
-							<img src={s5} class="img1" alt=""/>
+					<div className="box">
+						<div className="img-box">
+							<img src={s5} className="img1" alt=""/>
 						</div>
-						<div class="detail-box">
+						<div className="detail-box">
 							<h5>
 								Cloud Solutions
 								{/* (Software, Networking, Cybersecurity, etc) */}
@@ -104,7 +104,7 @@ function Services () {
 					</div>
 
 				</div>
-				<div class="btn-box">
+				<div className="btn-box">
 					<a href="/">
 					Read More
 					</a>
