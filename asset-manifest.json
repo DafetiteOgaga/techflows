@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.036f66b3.css",
+    "main.js": "/static/js/main.581dd1b4.js",
+    "static/js/453.77babadd.chunk.js": "/static/js/453.77babadd.chunk.js",
+    "static/media/slider-img.jpg": "/static/media/slider-img.1398fca0f50b6e96bb57.jpg",
+    "static/media/about-img1.jpg": "/static/media/about-img1.cf481880acb3d96c61f2.jpg",
+    "static/media/about-img2.jpg": "/static/media/about-img2.86f5d9f99edce73b8f5a.jpg",
+    "static/media/dafelogoBlackTransparent.png": "/static/media/dafelogoBlackTransparent.b5f8dabc5eebe8856366.png",
+    "static/media/techflowsTransparent.png": "/static/media/techflowsTransparent.4f1e3b58176c681827bf.png",
+    "static/media/s5.png": "/static/media/s5.07678e738453133dfb03.png",
+    "static/media/s2.png": "/static/media/s2.7be8cb407159ed89782c.png",
+    "index.html": "/index.html",
+    "main.036f66b3.css.map": "/static/css/main.036f66b3.css.map",
+    "main.581dd1b4.js.map": "/static/js/main.581dd1b4.js.map",
+    "453.77babadd.chunk.js.map": "/static/js/453.77babadd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.036f66b3.css",
+    "static/js/main.581dd1b4.js"
+  ]
+}
