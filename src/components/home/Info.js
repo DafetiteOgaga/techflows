@@ -13,7 +13,7 @@ function Info () {
 		<section className="info_section layout_padding3">
 			<div className="container">
 				<div className="info_contact">
-					<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', flexDirection: isMobile? 'column': 'row'}}>
+				<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', flexDirection: isMobile? 'column': 'row'}}>
 						<div className="col-md-4">
 							<a href="/">
 								<img src={location} alt=""/>
@@ -38,6 +38,8 @@ function Info () {
 								</span>
 							</a>
 						</div>
+					</div>
+					<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', ...(isMobile?{}:{paddingTop: 20, justifyContent: 'center', flexDirection: 'row'})}}>
 						<div className="col-md-4">
 							<div className="info_social">
 								<div>
