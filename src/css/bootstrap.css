@@ -1025,8 +1025,8 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    /* -ms-flex: 0 0 33.333333%; */
+    /* flex: 0 0 33.333333%; */
     max-width: 33.333333%;
   }
   .col-md-5 {
@@ -6240,11 +6240,11 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   backface-visibility: hidden;
-  transition: -webkit-transform 0.6s ease-in-out;
+  /* transition: -webkit-transform 0.6s ease-in-out; */
   transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  /* transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; */
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6261,20 +6261,20 @@ a.close.disabled {
 
 .carousel-item-next:not(.carousel-item-left),
 .active.carousel-item-right {
-  -webkit-transform: translateX(100%);
+  /* -webkit-transform: translateX(100%); */
   transform: translateX(100%);
 }
 
 .carousel-item-prev:not(.carousel-item-right),
 .active.carousel-item-left {
-  -webkit-transform: translateX(-100%);
+  /* -webkit-transform: translateX(-100%); */
   transform: translateX(-100%);
 }
 
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-property: opacity;
-  -webkit-transform: none;
+  /* -webkit-transform: none; */
   transform: none;
 }
 
@@ -6305,11 +6305,11 @@ a.close.disabled {
   top: 0;
   bottom: 0;
   z-index: 1;
-  display: -ms-flexbox;
+  /* display: -ms-flexbox; */
   display: flex;
-  -ms-flex-align: center;
+  /* -ms-flex-align: center; */
   align-items: center;
-  -ms-flex-pack: center;
+  /* -ms-flex-pack: center; */
   justify-content: center;
   width: 15%;
   color: #fff;
