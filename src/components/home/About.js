@@ -1,14 +1,16 @@
 // import plug from '../../images/plug.png'
 import about1 from '../../images/about-img1.jpg'
 import about2 from '../../images/about-img2.jpg'
+import { useIsMobile } from '../hooks/IsMobile'
 
 function About() {
+	const isMobile = useIsMobile()
 	return (
 		<section className="about_section_bg about_section layout_padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
-						<div className="detail-box">
+						<div className="detail-box" style={{marginRight: isMobile? '0': '15%'}}>
 							<div className="heading_container">
 								<h2>
 									About Us
@@ -26,7 +28,7 @@ function About() {
 								Read More
 							</a> */}
 						</div>
-						<div className="detail-box">
+						<div className="detail-box" style={{marginRight: isMobile? '0': '15%'}}>
 							<div className="heading_container">
 								<h2>
 									Our Mission, Vision & Values
@@ -44,7 +46,7 @@ function About() {
 								Read More
 							</a> */}
 						</div>
-						<div className="detail-box">
+						<div className="detail-box" style={{marginRight: isMobile? '0': '15%'}}>
 							<div className="heading_container">
 								<h2>
 									What makes us different?
