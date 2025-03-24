@@ -37,3 +37,28 @@
   }
 }
 
+.dafetite {
+  height: 40px;
+  width: 95px;
+  transition: all 0.3s ease-in-out;
+}
+
+.dafetite:hover, .dafetite:active {
+  width: 110px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .dafetite {
+    width: 80px;
+    height: 30px;
+  }
+  .dafetite:hover {
+    width: 100px;
+    height: 30px;
+  }
+  .dafetite:active {
+    width: 70px;
+    height: 30px;
+  }
+}
