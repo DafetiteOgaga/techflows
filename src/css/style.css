@@ -5,8 +5,8 @@ body {
 }
 
 .layout_padding {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 20px;
 }
 
 .layout_padding2 {
@@ -28,6 +28,12 @@ body {
 
 .layout_padding-bottom {
   padding-bottom: 90px;
+}
+
+.layout_padding3 {
+  padding: 1rem 0;
+  margin-top: 50px;
+  /* margin: 20px 0; */
 }
 
 .heading_container {
@@ -212,15 +218,15 @@ a:focus {
 
 /* slider section */
 .slider_section {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* -webkit-box-flex: 1;
+      -ms-flex: 1; */
+  flex: 1;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /* -webkit-box-align: center;
+      -ms-flex-align: center; */
+  align-items: center;
   position: relative;
   z-index: 2;
   color: #3b3a3a;
@@ -228,9 +234,9 @@ a:focus {
 }
 
 .slider_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /* -webkit-box-align: center;
+      -ms-flex-align: center; */
+  align-items: center;
 }
 
 .slider_section .detail_box {
@@ -296,16 +302,24 @@ a:focus {
 .slider_section .carousel-control-prev {
   background-image: url(../images/prev.png);
   background-color: #ffffff;
-  -webkit-transform: translate(-85px, 30px);
-          transform: translate(-85px, 30px);
+  /* -webkit-transform: translate(-85px, 30px); */
+  transform: translate(-85px, 30px);
+}
+.slider_section .carousel-control-prev:hover {
+  /* color: #ffffff; */
+  background-color: #f3f3f3;
 }
 
 .slider_section .carousel-control-next {
   background-image: url(../images/next.png);
   /* background-color: #4b208c; */
   background-color: #2C438F;
-  -webkit-transform: translate(-45px, 0);
-          transform: translate(-45px, 0);
+  /* -webkit-transform: translate(-45px, 0); */
+  transform: translate(-45px, 0);
+}
+.slider_section .carousel-control-next:hover {
+  /* color: #000000; */
+  background-color: #455a9e;
 }
 
 /* slide section ends */
@@ -331,15 +345,15 @@ a:focus {
 }
 
 .service_section .service_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /* -webkit-box-pack: center;
+      -ms-flex-pack: center; */
+  justify-content: center;
   padding: 35px 0;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  /* -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .service_section .service_container .box {
@@ -468,9 +482,9 @@ a:focus {
   width: 100%;
 }
 
-.about_section .detail-box {
+/* .about_section .detail-box {
   margin-right: 15%;
-}
+} */
 
 .about_section .detail-box p {
   margin-top: 25px;
@@ -661,17 +675,17 @@ a:focus {
   font-weight: bold;
 }
 
-.info_section .info_contact {
+/* .info_section {
   margin-top: 60px;
   margin-bottom: 45px;
-}
+} */
 
 .info_section .info_contact .col-md-4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+  /* -webkit-box-pack: center;
+      -ms-flex-pack: center; */
           justify-content: center;
 }
 
@@ -696,19 +710,19 @@ a:focus {
 }
 
 .info_section .info_form form {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
+  /* -webkit-box-align: center;
+      -ms-flex-align: center; */
           align-items: center;
 }
 
 .info_section .info_form form input {
   background-color: #ffffff;
   border: none;
-  -webkit-box-flex: 2.5;
-      -ms-flex: 2.5;
+  /* -webkit-box-flex: 2.5;
+      -ms-flex: 2.5; */
           flex: 2.5;
   outline: none;
   color: #000000;
@@ -737,8 +751,8 @@ a:focus {
 }
 
 .info_section .info_form form button {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
+  /* -webkit-box-flex: 1;
+      -ms-flex: 1; */
           flex: 1;
   border: none;
   display: inline-block;
@@ -758,14 +772,14 @@ a:focus {
 }
 
 .info_section .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
 }
 
 .info_section .info_social {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
 }
 

@@ -1,17 +1,19 @@
 // import plug from '../../images/plug.png'
 import about1 from '../../images/about-img1.jpg'
 import about2 from '../../images/about-img2.jpg'
+import { useIsMobile } from '../hooks/IsMobile'
 
 function WhyUs() {
+	const isMobile = useIsMobile()
 	return (
 		// <section className="layout_padding">
-		<section className="about_section layout_padding">
+		<section className="about_section" style={{marginBottom: isMobile? '20px': '0'}}>
 			<div className="container">
-				<div className="row">
+				<div className="row" style={{ marginLeft: isMobile?'0': '120px'}}>
 					<div className="col-md-6">
-					<div className="detail-box">
-						<div className="heading_container">
-								<h2>
+						<div className="detail-box" style={{marginRight: isMobile? '0': '-200px'}}>
+							<div className="">
+								<h2 style={{fontWeight: 'bold'}}>
 									Why Choose Us?
 								</h2>
 								{/* <img src={plug} alt=""/> */}
@@ -30,10 +32,10 @@ function WhyUs() {
 					</div>
 					<div className="col-md-6">
 						<div className="img_container">
-							<div className="img-box b1">
+							{/* <div className="img-box b1">
 								<img src={about1} alt="" />
-							</div>
-							<div className="img-box b2">
+							</div> */}
+							<div className="img-box b2" style={isMobile?{}:{height: 150, width: 150, marginLeft: 165}}>
 								<img src={about2} alt="" />
 							</div>
 						</div>

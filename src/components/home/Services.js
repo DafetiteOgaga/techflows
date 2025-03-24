@@ -4,8 +4,13 @@ import s2 from '../../images/s2.png'
 import s3 from '../../images/s3.png'
 import s4 from '../../images/s4.png'
 import s5 from '../../images/s5.png'
+import { IoCodeSlash, IoHardwareChip, IoShieldCheckmark,
+	IoCashOutline, IoSchoolOutline, IoCloudOutline
+ } from "react-icons/io5";
+import { useIsMobile } from '../hooks/IsMobile'
 
 function Services () {
+	const isMobile = useIsMobile()
 	return (
 		<section className="service_section layout_padding">
 			<div className="container">
@@ -13,13 +18,14 @@ function Services () {
 					<h2>
 						Our Services
 					</h2>
-					<img src={plug} alt=""/>
+					{/* <img src={plug} alt=""/> */}
 				</div>
 
-				<div className="service_container">
+				<div className="service_container" style={{flexDirection: isMobile? 'column': 'row'}}>
 					<div className="box">
 						<div className="img-box">
-							<img src={s1} className="img1" alt=""/>
+							<IoCodeSlash size={100} color="blue" />
+							{/* <img src={s1} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
@@ -33,7 +39,8 @@ function Services () {
 					</div>
 					<div className="box active">
 						<div className="img-box">
-							<img src={s2} className="img1" alt=""/>
+							<IoHardwareChip size={100} color="green" />
+							{/* <img src={s2} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
@@ -47,7 +54,8 @@ function Services () {
 					</div>
 					<div className="box">
 						<div className="img-box">
-							<img src={s3} className="img1" alt=""/>
+							<IoShieldCheckmark size={100} color="red" />
+							{/* <img src={s3} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
@@ -61,11 +69,12 @@ function Services () {
 					</div>
 					<div className="box ">
 						<div className="img-box">
-							<img src={s4} className="img1" alt=""/>
+							<IoCashOutline size={100} color="gold" />
+							{/* <img src={s4} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
-								ATM spare parts sales and maintainance
+								ATM spare parts sales and maintenance
 								{/* (Genuine parts and expert servicing) */}
 							</h5>
 							<p>
@@ -75,7 +84,8 @@ function Services () {
 					</div>
 					<div className="box">
 						<div className="img-box">
-							<img src={s5} className="img1" alt=""/>
+							<IoSchoolOutline size={100} color="purple" />
+							{/* <img src={s5} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
@@ -90,7 +100,8 @@ function Services () {
 
 					<div className="box">
 						<div className="img-box">
-							<img src={s5} className="img1" alt=""/>
+							<IoCloudOutline size={100} color="skyblue" />
+							{/* <img src={s5} className="img1" alt=""/> */}
 						</div>
 						<div className="detail-box">
 							<h5>
@@ -104,11 +115,11 @@ function Services () {
 					</div>
 
 				</div>
-				<div className="btn-box">
+				{/* <div className="btn-box">
 					<a href="/">
 					Read More
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)

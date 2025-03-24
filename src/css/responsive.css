@@ -74,6 +74,9 @@
   .info_section .info_contact a {
     text-align: center;
   }
+  .about_section .detail-box {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 576px) {
