@@ -6,7 +6,7 @@ import s4 from '../../images/s4.png'
 import s5 from '../../images/s5.png'
 import { IoCodeSlash, IoHardwareChip, IoShieldCheckmark,
 	IoCashOutline, IoSchoolOutline, IoCloudOutline
- } from "react-icons/io5";
+} from "react-icons/io5";
 import { useIsMobile } from '../hooks/IsMobile'
 
 function Services () {
@@ -14,7 +14,7 @@ function Services () {
 	return (
 		<section className="service_section layout_padding">
 			<div className="container">
-				<div className="heading_container">
+				<div className="heading_container" style={{marginTop: isMobile?90:''}}>
 					<h2>
 						Our Services
 					</h2>
