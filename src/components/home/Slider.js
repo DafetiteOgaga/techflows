@@ -1,4 +1,6 @@
-import sliderImages from '../../images/slider-img.jpg'
+import sliderImages1 from '../../images/slider-img.jpg'
+import sliderImages2 from '../../images/about-img1.jpg'
+import sliderImages3 from '../../images/about-img2.jpg'
 
 function Slider () {
 	return (
@@ -27,17 +29,17 @@ function Slider () {
 									<div className="carousel-inner">
 										<div className="carousel-item active">
 											<div className="img-box">
-												<img src={sliderImages} alt="slider img"/>
+												<img src={sliderImages1} alt="slider img"/>
 											</div>
 										</div>
 										<div className="carousel-item">
 											<div className="img-box">
-												<img src={sliderImages} alt="slider img"/>
+												<img src={sliderImages2} alt="slider img"/>
 											</div>
 										</div>
 										<div className="carousel-item">
 											<div className="img-box">
-												<img src={sliderImages} alt="slider img"/>
+												<img src={sliderImages3} alt="slider img"/>
 											</div>
 										</div>
 									</div>
