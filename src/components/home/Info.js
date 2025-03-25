@@ -16,50 +16,50 @@ function Info () {
 				<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', flexDirection: isMobile? 'column': 'row'}}>
 						<div className="col-md-4">
 							<a href="/">
-								<img src={location} alt=""/>
-								<span>
+								<img src={location} alt="" style={isMobile?{height: 13, width: 10}:{}} />
+								<span style={isMobile?{fontSize: 13}:{}}>
 									VI Lagos, Nigeria
 								</span>
 							</a>
 						</div>
 						<div className="col-md-4">
 							<a href="/">
-								<img src={telephone} alt=""/>
-								<span>
+								<img src={telephone} alt="" style={isMobile?{height: 14, width: 10}:{}} />
+								<span style={isMobile?{fontSize: 13}:{}}>
 									Call : +234 8888888888
 								</span>
 							</a>
 						</div>
 						<div className="col-md-4">
 							<a href="/">
-								<img src={envelope} alt=""/>
-								<span>
+								<img src={envelope} alt="" style={isMobile?{height: 12, width: 15}:{}} />
+								<span style={isMobile?{fontSize: 13}:{}}>
 									techflows@gmail.com
 								</span>
 							</a>
 						</div>
 					</div>
-					<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', ...(isMobile?{}:{paddingTop: 20, justifyContent: 'center', flexDirection: 'row'})}}>
+					<div className="row" style={{flexWrap: 'nowrap', alignItems: 'center', ...(isMobile?{paddingTop: 10}:{paddingTop: 20, justifyContent: 'center', flexDirection: 'row'})}}>
 						<div className="col-md-4">
 							<div className="info_social">
 								<div>
 									<a href="/">
-										<img src={fb} alt=""/>
+										<img src={fb} alt="" style={isMobile?{height: 20, width: 20}:{}} />
 									</a>
 								</div>
 								<div>
 									<a href="/">
-										<img src={twitter} alt=""/>
+										<img src={twitter} alt="" style={isMobile?{height: 20, width: 20}:{}} />
 									</a>
 								</div>
 								<div>
 									<a href="/">
-										<img src={linkedin} alt=""/>
+										<img src={linkedin} alt="" style={isMobile?{height: 20, width: 20}:{}} />
 									</a>
 								</div>
 								<div>
 									<a href="/">
-										<img src={instagram} alt=""/>
+										<img src={instagram} alt="" style={isMobile?{height: 20, width: 20}:{}} />
 									</a>
 								</div>
 							</div>
