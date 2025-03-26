@@ -63,19 +63,43 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  /* -webkit-box-orient: vertical; */
+  /* -webkit-box-direction: normal;
+      -ms-flex-direction: column; */
+  flex-direction: column;
   background-color: #eae6f5;
 }
 
 .sub_page .hero_area {
   height: auto;
 }
+
+.header_section {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* background: '#f3f0f6'; */
+  /* margin-bottom: 200px; */
+  background: #eae6f5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Header hides when scrolling down */
+.hide-header {
+  transform: translateY(-100%);
+}
+
+/* Header reappears when scrolling up */
+.show-header {
+  transform: translateY(0);
+}
+
 
 .header_section .container {
   padding: 0;
@@ -230,6 +254,7 @@ a:focus {
   position: relative;
   z-index: 2;
   color: #3b3a3a;
+  /* padding-top: 70px; */
   padding-bottom: 90px;
 }
 
@@ -339,9 +364,9 @@ a:focus {
 }
 
 .service_section .heading_container {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /* -webkit-box-pack: center;
+      -ms-flex-pack: center; */
+  justify-content: center;
 }
 
 .service_section .service_container {
@@ -443,23 +468,23 @@ a:focus {
 
 /* about section */
 .about_section_bg {
-  background-color: #f3f0f6;
+  background-color: #eae6f5;
 }
 
 .about_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  /* -webkit-box-align: center;
+      -ms-flex-align: center; */
+  align-items: center;
 }
 
 .about_section .img_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-orient: vertical;
+  /* -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: column; */
+  flex-direction: column;
 }
 
 .about_section .img_container .img-box {
