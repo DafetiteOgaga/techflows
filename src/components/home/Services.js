@@ -12,7 +12,7 @@ import { useIsMobile } from '../hooks/IsMobile'
 function Services () {
 	const isMobile = useIsMobile()
 	return (
-		<section className="service_section layout_padding">
+		<section className="service_section layout_padding" id='service'>
 			<div className="container">
 				<div className="heading_container" style={{marginTop: isMobile?90:''}}>
 					<h2>

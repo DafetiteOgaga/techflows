@@ -6,7 +6,7 @@ import { useIsMobile } from '../hooks/IsMobile'
 function About() {
 	const isMobile = useIsMobile()
 	return (
-		<section className="about_section_bg about_section layout_padding">
+		<section className="about_section_bg about_section layout_padding" id='about'>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">

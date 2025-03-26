@@ -1,10 +1,12 @@
 import sliderImages1 from '../../images/slider-img.jpg'
 import sliderImages2 from '../../images/about-img1.jpg'
 import sliderImages3 from '../../images/about-img2.jpg'
+import { useIsMobile } from '../hooks/IsMobile'
 
 function Slider () {
+	const isMobile = useIsMobile()
 	return (
-		<section className=" slider_section ">
+		<section className=" slider_section" id='home' style={{marginTop: isMobile? 40: 70}}>
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6 ">

@@ -2,7 +2,7 @@ import plug from '../../images/plug.png'
 
 function Contact () {
 	return (
-		<section className="contact_section layout_padding">
+		<section className="contact_section layout_padding" id='contact'>
 			<div className="container ">
 				<div className="heading_container">
 					<h2>
