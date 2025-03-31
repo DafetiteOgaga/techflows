@@ -62,9 +62,13 @@ function Header () {
 					<a className="navbar-brand" href="index.html">
 						<img src={techflow} alt="techflow logo"/>
 						<span
-						style={{fontFamily: ['Courgette', 'sans-serif'], fontSize: 27}}
+						style={{
+							fontFamily: ['Marck Script', 'Italianno', 'Bad Script', 'Homemade Apple', 'Cookie', 'Great Vibes', 'Caveat', 'Courgette', 'sans-serif'],
+							fontSize: 27,
+							// fontWeight: 200,
+						}}
 						>
-							Techflows
+							Techflows Engineering
 						</span>
 					</a>
 
