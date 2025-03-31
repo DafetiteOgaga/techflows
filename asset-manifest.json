@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techflows/static/css/main.d0c11f73.css",
-    "main.js": "/techflows/static/js/main.761b3bf6.js",
+    "main.js": "/techflows/static/js/main.29b0682d.js",
     "static/js/453.77babadd.chunk.js": "/techflows/static/js/453.77babadd.chunk.js",
     "static/media/slider-img.jpg": "/techflows/static/media/slider-img.1398fca0f50b6e96bb57.jpg",
     "static/media/about-img1.jpg": "/techflows/static/media/about-img1.cf481880acb3d96c61f2.jpg",
@@ -12,11 +12,11 @@
     "static/media/s2.png": "/techflows/static/media/s2.7be8cb407159ed89782c.png",
     "index.html": "/techflows/index.html",
     "main.d0c11f73.css.map": "/techflows/static/css/main.d0c11f73.css.map",
-    "main.761b3bf6.js.map": "/techflows/static/js/main.761b3bf6.js.map",
+    "main.29b0682d.js.map": "/techflows/static/js/main.29b0682d.js.map",
     "453.77babadd.chunk.js.map": "/techflows/static/js/453.77babadd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0c11f73.css",
-    "static/js/main.761b3bf6.js"
+    "static/js/main.29b0682d.js"
   ]
 }
