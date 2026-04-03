@@ -12,7 +12,7 @@ function Footer () {
 					<div className="col-lg-7 col-md-9 mx-auto">
 						<p style={isMobile?{fontSize: 12}:{}}>
 							&copy; {year} All Rights Reserved | Developed by:
-							<a href="https://dafetiteogaga.github.io/dafetite/"><img src={dafetite} alt="developer logo" className='dafetite' /></a>
+							<a href="https://dafetite.pages.dev/"><img src={dafetite} alt="developer logo" className='dafetite' /></a>
 						</p>
 					</div>
 				</div>
